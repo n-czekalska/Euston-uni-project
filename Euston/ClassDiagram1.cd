@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Euston.Data.Models.EmailSIR">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Models\EmailSIR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Data.Models.Hashtags">
+    <Position X="0.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAQAAAAAAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>Data\Models\Hashtags.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Data.Models.TwitterID">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Models\TwitterID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Data.Models.URL">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Data\Models\URL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Business.CommonProcesses">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAACAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\CommonProcesses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Business.EmailProcessMessage" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAgEAAAEQAAAAAAAAAAAgIAAFEAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Business\EmailProcessMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="SIRs" />
+      <Field Name="URLs" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Orientation="Left" Position="0.122" Collapsed="true" />
+  </Class>
+  <Class Name="Euston.Business.JSONHandler">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Business\JSONHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Business.MessageType">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Euston.Business.MessageType.Type">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\MessageType.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\MessageType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Business.ProcessMessageHelper">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Business\ProcessMessageHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Euston.Business.PropertyChangedBase">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\PropertyChangedBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Euston.Business.SMSProcessMessage" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\SMSProcessMessage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.669" Collapsed="true" />
+  </Class>
+  <Class Name="Euston.Business.TweetProcessMessage" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEAAgAIEAAAAAAgAAAdEAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Business\TweetProcessMessage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Hashtags" />
+      <Field Name="IDs" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Orientation="Right" Position="0.195" Collapsed="true" />
+  </Class>
+  <Class Name="Euston.Display" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Display.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Euston.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQAYAAAAAAAAgAAAAAAAAAAAAAAAACAQIABAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Euston.Business.IProcessMessage">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\IProcessMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
