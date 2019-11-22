@@ -1,0 +1,5 @@
+E123456789,email@email.com,email subject,,This is a text. It contains url : http://google.com		
+E123456788,email@email.com,SIR 12/12/19,66-666-99,Staff Attack,This is a sir email text. It contains url : https://www.google.com/
+S123456789,00447895000000,Saw your message ROTFL cant wait to see you			
+T123456789,@twitter1,We welcomed #TweeParents to Twitter HQ for our first-ever Bring Your Parents to Work Day yesterday.,B4N @twitter2		
+T123456788,@tweetId,Some text with hashtag  #TweeParents,New twitterId @newId		
